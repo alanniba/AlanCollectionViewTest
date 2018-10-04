@@ -14,6 +14,10 @@
 		0860C62F21666FDD0030363B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0860C62D21666FDD0030363B /* LaunchScreen.storyboard */; };
 		0860C63A21666FDD0030363B /* AlanCollectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C63921666FDD0030363B /* AlanCollectionViewTestTests.swift */; };
 		0860C64521666FDD0030363B /* AlanCollectionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C64421666FDD0030363B /* AlanCollectionViewTestUITests.swift */; };
+		0860C654216673E10030363B /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C653216673E10030363B /* PhotoCollectionViewCell.swift */; };
+		0860C65621667ABA0030363B /* pinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C65521667ABA0030363B /* pinterestLayout.swift */; };
+		0860C663216689F90030363B /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C662216689F90030363B /* DetialViewController.swift */; };
+		0860C665216690060030363B /* ZoomTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0860C664216690060030363B /* ZoomTransitioningDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0860C64021666FDD0030363B /* AlanCollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlanCollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0860C64421666FDD0030363B /* AlanCollectionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlanCollectionViewTestUITests.swift; sourceTree = "<group>"; };
 		0860C64621666FDD0030363B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0860C653216673E10030363B /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0860C65521667ABA0030363B /* pinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterestLayout.swift; sourceTree = "<group>"; };
+		0860C662216689F90030363B /* DetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
+		0860C664216690060030363B /* ZoomTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomTransitioningDelegate.swift; path = "../../../../Downloads/2. Downloads/zoomingimagetransition-complete/Photos-DucTran/ZoomTransitioningDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,9 @@
 		0860C62321666FDC0030363B /* AlanCollectionViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				0860C6662166A6900030363B /* Controller */,
+				0860C652216673BE0030363B /* View */,
 				0860C62421666FDC0030363B /* AppDelegate.swift */,
-				0860C62621666FDC0030363B /* ViewController.swift */,
-				0860C62821666FDC0030363B /* Main.storyboard */,
 				0860C62B21666FDD0030363B /* Assets.xcassets */,
 				0860C62D21666FDD0030363B /* LaunchScreen.storyboard */,
 				0860C63021666FDD0030363B /* Info.plist */,
@@ -123,6 +131,26 @@
 				0860C64621666FDD0030363B /* Info.plist */,
 			);
 			path = AlanCollectionViewTestUITests;
+			sourceTree = "<group>";
+		};
+		0860C652216673BE0030363B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0860C62821666FDC0030363B /* Main.storyboard */,
+				0860C664216690060030363B /* ZoomTransitioningDelegate.swift */,
+				0860C653216673E10030363B /* PhotoCollectionViewCell.swift */,
+				0860C65521667ABA0030363B /* pinterestLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0860C6662166A6900030363B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0860C62621666FDC0030363B /* ViewController.swift */,
+				0860C662216689F90030363B /* DetialViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0860C65621667ABA0030363B /* pinterestLayout.swift in Sources */,
+				0860C663216689F90030363B /* DetialViewController.swift in Sources */,
+				0860C665216690060030363B /* ZoomTransitioningDelegate.swift in Sources */,
 				0860C62721666FDC0030363B /* ViewController.swift in Sources */,
 				0860C62521666FDC0030363B /* AppDelegate.swift in Sources */,
+				0860C654216673E10030363B /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
